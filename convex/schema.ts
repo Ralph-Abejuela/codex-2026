@@ -64,7 +64,7 @@ export default defineSchema({
     .index("by_key", ["key"]),
 
   // ── Documents ─────────────────────────────────────────────────────
-  internDocuments: defineTable({
+  Documents: defineTable({
     name:           v.string(),
     type:           v.string(),
     url:            v.string(),
